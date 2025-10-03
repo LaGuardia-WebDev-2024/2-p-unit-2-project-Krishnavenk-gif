@@ -18,34 +18,39 @@ Select ONE Additional Feature to Add
     <head>
         <meta charset="utf-8">
         <title>Gotham</title>
+        <style>
+            h1{animation: colorChange2 20s infinite alternate;}
+
+
+            body, html{
+                animation: colorChange 20s infinite alternate;
+            }
+            
+            @keyframes colorChange{
+                    0%{background-color: rgb(255, 255, 255);} 
+                    100%{background-color: black;}
+            }
+
+             @keyframes colorChange2{
+                    0%{color: rgb(0, 0, 0);} 
+                    100%{color: rgb(255, 255, 255);}
+            }
+            p{animation: colorChange 20s infinite alternate;}
+
+            @keyframes colorChange3{
+                0%{color: black;}
+                100%{color: white;}
+            }
+}
+
+
+        </style>
     </head>
     <body>
 
 
-<h1>Gotham</h1>
+<h1><center>Gotham</center></h1>
 
-
-<style>body,html{animation: colorChange 20s infinite alternate;}
-
-@keyframes colorChange{
-    0%{background-color: rgb(255, 255, 255);} 
-    100%{background-color: black;}
-}
-
-
-#Gotham html{animation: colorChange 20s infinite alternate;}
-
-
-
-
-#Gotham {
-color: black;}
-
-
-}
-
-
-</style>
-        
+   <p><center>Gotham is a metropolis. It's often characterized by it's ambigous atmosphere of darkness, and malice. It's a battleground for conflict and crime, yet throughout the darkness, a symbol of hope emerges. Batman, a symbol of hope for the innocent, and a symbol of vengeance for the malicous, roams throughout the city, saving the unsavable.</center></p>     
     </body>
 </html>
